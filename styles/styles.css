@@ -1,0 +1,11 @@
+body > div:first-child {
+	overflow-x: hidden;
+}
+
+.text-dark-color {
+	color: #32325d;
+}
+
+.desc-size {
+	font-size: 1rem;
+}
