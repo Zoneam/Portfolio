@@ -3,10 +3,8 @@ import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
-const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
 const Projects = dynamic(() => import("../containers/Projects"));
-const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
 );
@@ -24,23 +22,19 @@ export default function Home({ githubProfileData }) {
             "https://avatars.githubusercontent.com/u/70010037?s=400&u=2de0281030b15d13c2bffb68a5f9215c3e52ca5f&v=4",
           url: "https://haykmn.com",
           keywords: [
-            "Hanzla",
-            "Hanzla Tauqeer",
-            "@1hanzla100",
-            "1hanzla100",
+            "Hayk",
+            "Hayk Mnatsakanyan",
             "Portfolio",
-            "Hanzla Portfolio ",
-            "Hanzla Tauqeer Portfolio",
+            "Hayk Portfolio ",
+            "Hayk Mnatsakanyan Portfolio",
           ],
         }}
       />
       <Navigation />
       <Greetings />
-      <Projects />
-      <Education />
       <Skills />
-      <Proficiency />
-
+      <Education />
+      <Projects />
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );

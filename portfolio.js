@@ -118,28 +118,7 @@ export const skillsSection = {
   ],
 };
 
-export const SkillBars = [
-  {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "90", //Insert relative proficiency in percentage
-  },
-  {
-    Stack: "Backend",
-    progressPercentage: "65",
-  },
-  {
-    Stack: "Programming",
-    progressPercentage: "80",
-  },
-];
-
 export const educationInfo = [
-  {
-    schoolName: "UC Davis Continuing and Professional Education",
-    subHeader: "Full Stack Web Developer",
-    duration: "March 2021 - September 2021",
-    desc: "Demonstrated knowledge of coding, algorithms and data structures while developing applications in Javascript, Node.js, HTML, CSS, jQuery and other front-end and back-end and back-end tools and technologies. Program instructional time was 250 hours and up to an additional 500 hours on projects.",
-  },
   {
     schoolName: "General Assembly",
     subHeader: "Software Engineer",
@@ -151,6 +130,12 @@ export const educationInfo = [
     subHeader: "Bachelor of Science",
     duration: "September 2000 - May 2004",
     desc: "State Engineering University of Armenia with a major in Standardization, Certification, and Quality Control.",
+  },
+  {
+    schoolName: "UC Davis Continuing and Professional Education",
+    subHeader: "Full Stack Web Developer",
+    duration: "March 2021 - September 2021",
+    desc: "Demonstrated knowledge of coding, algorithms and data structures while developing applications in Javascript, Node.js, HTML, CSS, jQuery and other front-end and back-end and back-end tools and technologies. Program instructional time was 250 hours and up to an additional 500 hours on projects.",
   },
 ];
 

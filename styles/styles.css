@@ -9,3 +9,8 @@ body > div:first-child {
 .desc-size {
 	font-size: 1rem;
 }
+
+.ed-lottie{
+	position: relative;
+	top: -75px;
+}
