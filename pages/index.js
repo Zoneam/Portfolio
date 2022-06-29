@@ -32,9 +32,9 @@ export default function Home({ githubProfileData }) {
       />
       <Navigation />
       <Greetings />
-      <Skills />
-      <Education />
       <Projects />
+      <Education />
+      <Skills />
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );

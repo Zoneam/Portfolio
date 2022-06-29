@@ -9,11 +9,14 @@ const ProjectsCard = ({ data }) => {
 		<Col lg="6">
 			<Fade bottom duration={2000} >
 				<Card className="shadow-lg--hover shadow mt-4">
-					<CardBody>
-						<div className="d-flex px-3">
-							<div className="pl-4">
-								<h3>{data.name}</h3>
-								<p className="description mt-3">{data.desc}</p>
+					<CardBody style={{height:'300px'}}>
+						<div className="d-flex px-3" style={{ height: '100%'}}>
+							<div className="pl-4" style={{display:'flex', justifyContent:'space-between',flexDirection: 'column'}}>
+								<div>
+									<h3>{data.name}</h3>
+									<p className="description mt-3">{data.desc}</p>
+								</div>
+								<div>
 								{data.github ? (
 									<Button
 										className="btn-icon"
@@ -43,7 +46,8 @@ const ProjectsCard = ({ data }) => {
 											Live App
 										</span>
 									</Button>
-								) : null}
+									) : null}
+								</div>
 							</div>
 						</div>
 					</CardBody>
