@@ -149,7 +149,7 @@ export const projects = [
     name: "Photofy",
     desc: "Web app for photographers to keep track of their customers, transactions, bookings also to showcase their portfolio for potential new customers.",
     github: "https://github.com/Zoneam/Photofy",
-    link: "https://photofyproject.herokuapp.com/",
+    link: "https://photofy-project.herokuapp.com/",
   },
   {
     name: "BattleShips (AI Game)",
