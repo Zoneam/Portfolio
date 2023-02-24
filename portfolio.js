@@ -143,7 +143,7 @@ export const projects = [
     name: "Code-Room",
     desc: "A web application that enables one to save favorite code snippets, share snippets, like and comment on others shared code.",
     github: "https://github.com/Zoneam/Code-Room",
-    link: "https://mycode-room.herokuapp.com/",
+    link: "https://code-room.space/",
   },
   {
     name: "Photofy",
@@ -167,7 +167,7 @@ export const projects = [
     name: "Eventory (Social)",
     desc: "A web portal to create events for friends and meet new people, embark on new adventures, or try new experiences.",
     github: "https://github.com/Zoneam/Eventory",
-    link: "https://my-eventory.herokuapp.com",
+    link: "https://eventoryproject.herokuapp.com/",
   },
   {
     name: "Alumn Space (Social Media)",
@@ -176,10 +176,10 @@ export const projects = [
     link: "http://alumn-space.herokuapp.com",
   },
   {
-    name: "Amaze Scrape (Web Scraper)",
+    name: "Amaze Scrape 2.0 (Web Scraper)",
     desc: "Web app to search for products on Amazon.com and compare prices between two major retailers, Amazon and Walmart.com",
-    github: "https://github.com/Zoneam/Amaze-Scraper",
-    link: "https://amaze-scrape.herokuapp.com/",
+    github: "https://github.com/Zoneam/Amaze-Scrape-2.0",
+    link: "https://amaze-scrape-2.herokuapp.com/search/",
   },
   {
     name: "Food Base",
